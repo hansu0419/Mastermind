@@ -1,16 +1,3 @@
-/****************************************************************************** 
- 
-This is to certify that this project is my own work, based on my personal 
-efforts in studying and applying the concepts learned. I have constructed  
-the functions and their respective algorithms and corresponding code by  
-myself. The program was run, tested, and debugged by my own efforts. I  
-further certify that I have not copied in part or whole or otherwise  
-plagiarized the work of other students and/or persons. 
- 
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
- 
-******************************************************************************/ 
-
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
@@ -33,7 +20,7 @@ Johans Venedict Loyola Cipriano - ID. 12205540 - S12B
 	@return : "Congratulations! You got the code!" || "You Lose!" && *p_score 
 	&& *ai_score
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
+ 
  
 ******************************************************************************/ 
 
@@ -186,7 +173,7 @@ int check_answer(int attempt, int g1, int g2, int g3, int g4, int a, int b, int 
 		
 	@return : "AI-kun got the code!" || "AI-kun Loses!" && *p_score++ || *ai_score++
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
+ 
  
 ******************************************************************************/ 
 
@@ -402,7 +389,7 @@ int AI_kun(int lower, int upper, int lower2, int upper2, int lower3, int upper3,
 	
 	@return : prints a drawing.
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
+ 
  
 ******************************************************************************/ 
 
@@ -427,7 +414,7 @@ void trophy()
 	
 	@return : prints a drawing.
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
+ 
  
 ******************************************************************************/ 
 
@@ -455,7 +442,7 @@ void sad_face()
 	
 	@return : 0 
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
+ 
  
 *************************************************************************************************************************/ 
 
@@ -666,7 +653,7 @@ int num_game(int lower, int upper, int lower2, int upper2, int lower3, int upper
 		
 	@return : 0 
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B  
+  
  
 ******************************************************************************/ 
 
@@ -693,7 +680,7 @@ int compare_score(int *p_score, int *ai_score){
 	
 	@return : prints the rules of the game.
  
-Johans Venedict Loyola Cipriano - ID. 12205540 - S12B 
+ 
  
 ******************************************************************************/ 
 
